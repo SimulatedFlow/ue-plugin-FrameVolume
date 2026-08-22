@@ -1,4 +1,4 @@
-// Copyright 2026 Simulated Flow. All Rights Reserved.
+// Copyright 2026 Silvan Teufel. All Rights Reserved.
 
 #include "FrameVolumeSubsystem.h"
 
@@ -19,6 +19,7 @@
 #include "FrameVolumeLog.h"
 #include "FrameVolumeSettings.h"
 #include "GameFramework/HUD.h"
+#include "GameFramework/Pawn.h"
 #include "GameFramework/PlayerController.h"
 #include "GlobalRenderResources.h"
 #include "HAL/IConsoleManager.h"
