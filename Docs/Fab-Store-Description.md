@@ -155,4 +155,4 @@ camera manager. Editor worlds are not supported by design; the plugin runs in Ga
 
 ---
 
-© 2026 Silvan Teufel. All Rights Reserved.
+© 2026 Simulated Flow. All Rights Reserved.

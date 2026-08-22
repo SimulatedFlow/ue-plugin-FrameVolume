@@ -692,4 +692,4 @@ The measured milliseconds are on the counters box, so the claim is checkable rat
 
 ---
 
-© 2026 Silvan Teufel. All Rights Reserved.
+© 2026 Simulated Flow. All Rights Reserved.
