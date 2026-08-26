@@ -78,8 +78,7 @@ shake — the engine already has one, and it composes with this rather than bein
 
 ## Requirements
 
-Unreal Engine 5.8. Built and verified on **Win64**; Mac and Linux are enabled in the plugin descriptor
-but were not built for this release.
+Unreal Engine 5.8. Built and verified on **Win64**; Mac and Linux are not listed in the plugin descriptor and were not built for this release.
 
 ## Documentation
 

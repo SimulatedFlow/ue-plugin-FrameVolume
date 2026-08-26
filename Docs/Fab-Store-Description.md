@@ -146,8 +146,7 @@ shake — the engine has one, and it composes with this rather than being replac
 `UFrameVolumeStatics`, `UFrameVolumeSettings`, `AFrameVolumeHUD`) plus 2 structs and 2 enums
 
 **Network Replicated:** No
-**Supported Development Platforms:** Win64 (built and verified). Mac and Linux are enabled in the plugin
-descriptor but were not built for this release.
+**Supported Development Platforms:** Win64 (built and verified). Mac and Linux are not listed in the plugin descriptor and were not built for this release.
 **Supported Target Build Platforms:** Win64
 **Documentation:** `Docs/DOCUMENTATION.md`, `README.md`
 **Important/Additional Notes:** Single local player — the modifier attaches to the first local player's

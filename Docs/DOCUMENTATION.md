@@ -11,7 +11,7 @@
 | **Dependencies** | `Core`, `CoreUObject`, `Engine`, `DeveloperSettings` (+ `RenderCore`, private). No Niagara, no Chaos, no UMG, no third-party code. |
 | **Network** | Not replicated (client-side presentation) |
 | **Built & verified on** | Win64 — `Build.bat` (Development Editor) and `RunUAT BuildPlugin -Rocket -StrictIncludes` (Development + Shipping), zero warnings |
-| **Enabled in descriptor** | Win64, Mac, Linux |
+| **Enabled in descriptor** | Win64 |
 | **Version** | 1.0.0 |
 
 ---
@@ -642,7 +642,7 @@ The measured milliseconds are on the counters box, so the claim is checkable rat
 |---|---|
 | **Engine version** | Unreal Engine **5.8** |
 | **Built and verified** | **Win64** — `RunUAT BuildPlugin -Rocket -StrictIncludes`, Development *and* Shipping configurations, zero warnings |
-| **Enabled in the descriptor** | `Win64`, `Mac`, `Linux` (`PlatformAllowList`) |
+| **Enabled in the descriptor** | `Win64` (`PlatformAllowList`) |
 | **Not built for this release** | Mac and Linux. The code uses no platform-specific API — only `Core`, `CoreUObject`, `Engine`, `DeveloperSettings` and `RenderCore` — so it is expected to build, but it has not been verified and is not claimed. |
 | **Target build platforms** | Win64 |
 | **Development platforms** | Win64 |
@@ -679,7 +679,7 @@ The measured milliseconds are on the counters box, so the claim is checkable rat
 - **`UpdatesPerSecond` above zero makes blends step.** The blend advances on the subsystem tick.
 - **No Sequencer integration and no camera shake of its own.** The engine has both; FrameVolume composes
   with them rather than replacing them.
-- **Win64 built and verified.** Mac and Linux are enabled in the descriptor but were not built for this
+- **Win64 built and verified.** Mac and Linux are not listed in the descriptor and were not built for this
   release.
 
 ---
