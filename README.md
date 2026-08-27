@@ -82,6 +82,8 @@ Unreal Engine 5.8. Built and verified on **Win64**; Mac and Linux are not listed
 
 ## Documentation
 
+Online, free and without an account: <https://wiki.teufel-engineering.com/en/FrameVolume/documentation>
+
 Full reference in [`Docs/DOCUMENTATION.md`](Docs/DOCUMENTATION.md).
 
 ---
